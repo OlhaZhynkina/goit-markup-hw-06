@@ -1057,16 +1057,21 @@ img {
 }
 
 .modal-form-comment {
-    margin-bottom: 16px;
-    height: 138px;
+  margin-bottom: 16px;
+  height: 138px;
 }
 
 .privacy-policy-label {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #8e8f99;
+  display: flex;
+  align-items: center;
+}
+
+.privacy-policy-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 
 .modal-form-checkbox {
@@ -1082,6 +1087,7 @@ img {
     fill: transparent;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: background-color, fill, border;
+    flex-shrink: 0;
 }
 
 input[type="checkbox"]:checked + .privacy-policy-label .modal-form-checkbox {
