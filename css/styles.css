@@ -121,6 +121,11 @@ img {
     padding-bottom: 16px;
 }
 
+.footer .logo {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 @media only screen and (min-width: 1158px) {
     .logo {
       margin-right: 76px;
@@ -694,7 +699,7 @@ img {
 
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
   .footer .container {
-    padding-left: 108px;
+    width: 584px;
   }
 }
 
@@ -1135,8 +1140,8 @@ input[type="checkbox"]:checked + .privacy-policy-label .modal-form-checkbox {
 /* #region MOB MENU */
 
 .menu-wrap {
-  width: 320px;
-  height: 640px;
+  width: 100%px;
+  height: 100%px;
   padding: 72px 24px 40px 16px;
   position: fixed;
   inset: 0;
